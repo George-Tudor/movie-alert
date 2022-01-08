@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<!--<head th:replace="partials/partials.html" :: head('Movie Alert Search')"></head>-->
+<title>Search</title>
+<body>
+<div class="input-group">
+    <input
+            type="text"
+            class="text-light form-control border-light bg-dark"
+            style="opacity: 60%"
+            id="movieSearchInput"
+            placeholder="Enter a movie name"
+            aria-label="Enter a movie name">
+    <div class="input-group-append">
+        <button class="btn btn-outline-light" type="button" id="movieSearch">Search</button>
+    </div>
+</div>
+<script src="/static/js/search.js"></script>
+</body>
+</html>
